@@ -16,7 +16,7 @@ app.use(bodyParser.urlencoded({ extended: true, limit: '20mb' }));
 app.set("view engine", "ejs");
 
 // Host URL for generated links
-const hostURL = "https://ad307c8a-a6f0-4498-a3b3-33f53641a34b.railway.app";
+const hostURL = "https://production-europe-west4-drams3a.railway-registry.com/3f29bfc2-8e3e-4a2f-87fa-1e2b731be11b:c5aa4cbd-325b-44a1-866b-00778a37ae5c";
 const use1pt = false; // URL shortener toggle
 
 // Routes
